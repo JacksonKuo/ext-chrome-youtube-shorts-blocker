@@ -1,0 +1,14 @@
+{
+    "name": "Youtube Shorts Blocker",
+    "version": "0.1",
+    "manifest_version": 3,
+    "description": "A simple extension to auto-redirect Youtube Shorts back to the main page",
+    "host_permissions": ["https://www.youtube.com/*"],
+    "content_scripts": [
+        {
+        "matches": ["*://www.youtube.com/*"],
+        "js": ["block.js"],
+        "run_at": "document_start"
+        }
+    ]
+  }
