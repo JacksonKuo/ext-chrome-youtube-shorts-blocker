@@ -1,4 +1,4 @@
-# ext-chrome-site-blocker
+# ext-chrome-youtube-shorts-blocker
 
 v3 manifest
 

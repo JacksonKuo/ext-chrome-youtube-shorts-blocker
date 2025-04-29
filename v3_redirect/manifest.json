@@ -1,13 +1,13 @@
 {
-    "name": "Youtube Shorts Blocker",
+    "name": "Shorts SetInterval Redirect",
     "version": "0.1",
     "manifest_version": 3,
-    "description": "A simple extension to auto-redirect Youtube Shorts back to the main page",
+    "description": "An extension to redirect Youtube Shorts back to the main page",
     "host_permissions": ["https://www.youtube.com/*"],
     "content_scripts": [
         {
         "matches": ["*://www.youtube.com/*"],
-        "js": ["block.js"],
+        "js": ["redirect.js"],
         "run_at": "document_start"
         }
     ]

@@ -1,0 +1,14 @@
+{
+    "name": "Shorts Navigate Redirect",
+    "version": "0.1",
+    "manifest_version": 3,
+    "description": "An extension to redirect Youtube Shorts back to the main page",
+    "host_permissions": ["https://www.youtube.com/*"],
+    "content_scripts": [
+        {
+        "matches": ["*://www.youtube.com/*"],
+        "js": ["redirect.js"],
+        "run_at": "document_start"
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "name": "Shorts Rules Redirect",
+    "version": "0.1",
+    "manifest_version": 3,
+    "description": "An extension to redirect Youtube Shorts",
+    "declarative_net_request": {
+      "rule_resources": [
+        {
+          "id": "ruleset",
+          "enabled": true,
+          "path": "rules.json"
+        }
+      ]
+    },
+    "permissions": [
+      "declarativeNetRequest",
+      "declarativeNetRequestFeedback",
+      "declarativeNetRequestWithHostAccess"
+    ],
+    "host_permissions": ["https://www.youtube.com/*"]
+  }
