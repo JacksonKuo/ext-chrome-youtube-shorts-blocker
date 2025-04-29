@@ -1,5 +1,5 @@
 # ext-chrome-youtube-shorts-blocker
 
-v3 manifest
+Manifest V3
 
 chrome://extensions/
